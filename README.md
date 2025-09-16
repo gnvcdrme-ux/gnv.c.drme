@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Geneva Adarme | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-gray-950 text-gray-100 font-sans">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 right-0 bg-gray-900 bg-opacity-80 backdrop-blur-md shadow z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-purple-400">Geneva</h1>
+      <ul class="flex space-x-6 text-gray-300">
+        <li><a href="#about" class="hover:text-purple-400">About</a></li>
+        <li><a href="#experience" class="hover:text-purple-400">Experience</a></li>
+        <li><a href="#projects" class="hover:text-purple-400">Projects</a></li>
+        <li><a href="#techstack" class="hover:text-purple-400">Tech</a></li>
+        <li><a href="#certifications" class="hover:text-purple-400">Certs</a></li>
+        <li><a href="#contact" class="hover:text-purple-400">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="text-center pt-32 pb-20" id="hero">
+   <img src="C:\Users\Jonathan\Downloads\548737751_1273186034097826_4316469753272241215_n.jpg" alt="C:\Users\Jonathan\Downloads\Geneva files\475412098_2368017006908913_1784568416378653627_n.jpg" class="mx-auto w-40 h-40 rounded-full shadow-lg border-4 border-purple-600" data-aos="zoom-in">
+    <h1 class="text-5xl font-extrabold mt-6 bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent" data-aos="fade-up">Geneva Adarme</h1>
+    <p class="text-lg text-gray-300 mt-4" data-aos="fade-up" data-aos-delay="200"> Baliuag, Bulacan 3006, Philippines </p>
+<p class="text-lg text-gray-300 mt-4" data-aos="fade-up" data-aos-delay="200"> Software Engineer </p>
+    <a href="#contact" class="mt-6 inline-block px-6 py-3 bg-purple-600 rounded-full text-white font-semibold hover:bg-purple-500 transition" data-aos="fade-up" data-aos-delay="400">Let’s Connect</a>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="max-w-4xl mx-auto px-6 py-20">
+    <h2 class="text-3xl font-bold mb-6 text-purple-400" data-aos="fade-right">About Me</h2>
+    <p class="leading-relaxed text-gray-300" data-aos="fade-up">
+      I am a Software Engineer with experience in customer service, system testing, DevOps, and IT service management. 
+      Currently working at Accenture, I specialize in backend/frontend solutions, project collaboration, and agile delivery. 
+      My journey from CSR to Software Engineer has equipped me with strong technical and communication skills, making me adaptable and versatile in handling complex challenges.
+    </p>
+  </section>
+
+  <!-- Experience Timeline -->
+  <section id="experience" class="bg-gray-900 py-20">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-12 text-purple-400" data-aos="fade-right">Experience</h2>
+      <div class="relative border-l border-purple-600">
+        <div class="mb-10 ml-6" data-aos="fade-up">
+          <span class="absolute -left-3 w-6 h-6 small-purple-600 rounded-full"></span>
+          <h3 class="text-xl font-bold">Software Engineer</h3>
+          <p class="text-purple-400">Accenture • June 2023 - Aug 2025</p>
+          <p class="text-gray-300 mt-2">Promoted to Level 11, worked on ChatGPT system testing and Saipem DevOps/ITSM projects, gaining expertise in Azure, Linux, ServiceNow, and Agile methodologies.</p>
+        </div>
+        <div class="mb-10 ml-6" data-aos="fade-up">
+          <span class="absolute -left-3 w-6 h-6 small-purple-600 rounded-full"></span>
+          <h3 class="text-xl font-bold">Associate Software Engineer</h3>
+          <p class="text-purple-400">Accenture • June 2022 - June 2023</p>
+          <p class="text-gray-300 mt-2">Contributed to Sony and Honda projects focusing on system testing, programming, and design implementation using Python, JavaScript, HTML, and CTT.</p>
+        </div>
+        <div class="ml-6" data-aos="fade-up">
+          <span class="absolute -left-3 w-6 h-6 small-purple-600 rounded-full"></span>
+          <h3 class="text-xl font-bold">Customer Service Representative</h3>
+          <p class="text-purple-400">Teleperformance • May 2020 - May 2022</p>
+          <p class="text-gray-300 mt-2">Developed strong communication and problem-solving skills while delivering high-quality customer support in a fast-paced BPO environment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="max-w-6xl mx-auto px-6 py-20">
+    <h2 class="text-3xl font-bold mb-12 text-purple-400" data-aos="fade-right">Projects</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="p-6 bg-gray-800 rounded-xl shadow hover:shadow-purple-600/40 transition" data-aos="zoom-in">
+        <h3 class="text-xl font-bold">Sony</h3>
+        <p class="text-gray-300 mt-2">System application testing and hardware integration to ensure seamless functionality.</p>
+      </div>
+      <div class="p-6 bg-gray-800 rounded-xl shadow hover:shadow-purple-600/40 transition" data-aos="zoom-in" data-aos-delay="100">
+        <h3 class="text-xl font-bold">Honda</h3>
+        <p class="text-gray-300 mt-2">Programming, configuration, and design implementation using multiple technologies.</p>
+      </div>
+      <div class="p-6 bg-gray-800 rounded-xl shadow hover:shadow-purple-600/40 transition" data-aos="zoom-in" data-aos-delay="200">
+        <h3 class="text-xl font-bold">ChatGPT</h3>
+        <p class="text-gray-300 mt-2">System testing and validation to ensure outputs align with business requirements.</p>
+      </div>
+      <div class="p-6 bg-gray-800 rounded-xl shadow hover:shadow-purple-600/40 transition" data-aos="zoom-in" data-aos-delay="300">
+        <h3 class="text-xl font-bold">Saipem</h3>
+        <p class="text-gray-300 mt-2">DevOps and ITSM support for international clients, ensuring prompt technical issue resolution.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack -->
+  <section id="techstack" class="bg-gray-900 py-20">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-6 text-purple-400" data-aos="fade-right">Tech Stack</h2>
+      <p class="text-gray-300" data-aos="fade-up">Python, Java, C++, JavaScript, SQL, HTML, Visual Studio, Agile, DevOps, SAP, Linux, ServiceNow, Node.js, React, PHP</p>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications" class="max-w-6xl mx-auto px-6 py-20">
+    <h2 class="text-3xl font-bold mb-12 text-purple-400" data-aos="fade-right">Certifications</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="p-4 bg-gray-800 rounded shadow text-gray-300" data-aos="flip-up">Summa Cum Laude</div>
+      <div class="p-4 bg-gray-800 rounded shadow text-gray-300" data-aos="flip-up">Generative AI Beyond Basics</div>
+      <div class="p-4 bg-gray-800 rounded shadow text-gray-300" data-aos="flip-up">Artificial Intelligence & Machine Learning</div>
+      <div class="p-4 bg-gray-800 rounded shadow text-gray-300" data-aos="flip-up">ChatGPT Prompt Engineering</div>
+      <div class="p-4 bg-gray-800 rounded shadow text-gray-300" data-aos="flip-up">Responsible AI for Leaders</div>
+      <div class="p-4 bg-gray-800 rounded shadow text-gray-300" data-aos="flip-up">Microsoft Azure SQL</div>
+      <div class="p-4 bg-gray-800 rounded shadow text-gray-300" data-aos="flip-up">Java Programming Certificates</div>
+      <div class="p-4 bg-gray-800 rounded shadow text-gray-300" data-aos="flip-up">Mobile App Development</div>
+      <div class="p-4 bg-gray-800 rounded shadow text-gray-300" data-aos="flip-up">Secure Application Architecture & IAM</div>
+    </div>
+  </section>
+
+  <!-- Recommendation -->
+  <section class="text-center px-6 py-20 bg-gray-900" data-aos="fade-up">
+    <blockquote class="text-2xl italic text-gray-300">“Coding is like magic, but the spells are written in logic.”</blockquote>
+  </section>
+
+  <!-- Speaking -->
+  <section id="speaking" class="max-w-4xl mx-auto px-6 py-20 text-center">
+    <h2 class="text-3xl font-bold mb-6 text-purple-400" data-aos="fade-right">Speaking</h2>
+      <p class="text-gray-300" data-aos="fade-up"> Behind every great app is a developer who refused to quit debugging. </p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-gray-900 py-20 text-center">
+    <h2 class="text-3xl font-bold mb-6 text-purple-400" data-aos="fade-right">Contact</h2>
+    <p>Email: <a href="mailto:gnv.drme@gmail.com" class="text-purple-400 hover:underline">gnv.drme@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/geneva-adarme-a3b50036b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="text-purple-400 hover:underline">linkedin.com/in/GenevaAdarme</a></p>
+    <p>GitHub: <a href="https://github.com/GenevaAdarme" target="_blank" class="text-purple-400 hover:underline">github.com/GenevaAdarme</a></p>
+    <a href="https://drive.google.com/file/d/1X4jvdPFAQzzPZSmyc0gP9PhUz3dEzDas/view?usp=drive_link" class="mt-6 inline-block px-6 py-3 bg-purple-600 rounded-full text-white font-semibold hover:bg-purple-500 transition">Download Resume</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-black text-gray-500 text-sm">
+    © 2025 Geneva Adarme. All rights reserved.
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+  </script>
+</body>
+</html>
